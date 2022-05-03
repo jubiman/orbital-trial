@@ -1,6 +1,9 @@
 # User-specific stuff
 .idea/
 
+# Don't push the spigot server
+server/
+
 *.iml
 *.ipr
 *.iws
