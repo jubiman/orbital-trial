@@ -1,0 +1,20 @@
+name: OrbitalTrialJubiman
+version: '${project.version}'
+main: com.jubiman.orbital.Orbital
+prefix: ORBITAL TRIAL
+authors: [ Jubiman ]
+description: Trial plugin
+website: https://jubiman.com/
+commands:
+  fire:
+    description: Set fire to a target player. Using /fire without a target will set yourself on fire.
+    usage: /fire <player>
+  lightning:
+    description: Summons a lightning strike on the target player. Using /lightning without a target will cast it on yourself.
+    usage: /lightning <player>
+  smite:
+    description: Summons a lightning strike on the target player. Using /smite without a target will cast it on yourself. (A small little easter egg, yay)
+    usage: /smite <player>
+  explode:
+    description: Explodes the target player with 2 tons of tnt. Using /explode without a target will explode yourself.
+    usage: /explode <player>
