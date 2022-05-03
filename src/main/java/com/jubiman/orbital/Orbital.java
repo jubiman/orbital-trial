@@ -9,15 +9,9 @@ public final class Orbital extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		// Plugin startup logic
 		this.getCommand("fire").setExecutor(new Fire());
 		this.getCommand("lightning").setExecutor(new Lightning());
 		this.getCommand("smite").setExecutor(new Lightning());
 		this.getCommand("explode").setExecutor(new Explode());
-	}
-
-	@Override
-	public void onDisable() {
-		// Plugin shutdown logic
 	}
 }
